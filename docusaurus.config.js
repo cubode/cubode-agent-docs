@@ -13,15 +13,17 @@ const config = {
   favicon: 'img/cubodeLogo.svg',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://Castelli1987.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/Cubode-Agent-Docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Cubode', // Usually your GitHub org/user name.
-  projectName: 'Cubode Agent Docs', // Usually your repo name.
+  organizationName: 'Castelli1987', // Usually your GitHub org/user name.
+  projectName: 'Cubode-Agent-Docs', // Usually your repo name.
+
+  trailingSlash: true, // or false, based on your URL preference
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
