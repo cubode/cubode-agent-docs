@@ -16,15 +16,13 @@ const config = {
   url: 'https://cubode.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Cubode-Agent-Docs/',
+  baseUrl: '/cubode-agent-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'cubode', // Usually your GitHub org/user name.
-  projectName: 'Cubode-Agent-Docs', // Usually your repo name.
-
+  projectName: 'cubode-agent-docs', // Usually your repo name.
   trailingSlash: true, // or false, based on your URL preference
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -148,6 +146,23 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  plugins: [
+    function customWatchPlugin() {
+      return {
+        name: 'custom-watch-plugin',
+        configureWebpack() {
+          return {
+            watchOptions: {
+              ignored: '**/node_modules',  // Ignore node_modules folder
+              poll: 1000,  // Check for changes every second
+              aggregateTimeout: 300,  // Delay the rebuild after the first change (in ms)
+            },
+          };
+        },
+      };
+    },
+  ],
 };
 
 export default config;
