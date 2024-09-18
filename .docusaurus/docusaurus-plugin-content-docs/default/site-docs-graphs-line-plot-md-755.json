@@ -1,0 +1,26 @@
+{
+  "id": "Graphs/Line Plot",
+  "title": "Line Plot",
+  "description": "Table of Contents",
+  "source": "@site/docs/Graphs/Line Plot.md",
+  "sourceDirName": "Graphs",
+  "slug": "/Graphs/Line Plot",
+  "permalink": "/cubode-agent-docs/Graphs/Line Plot",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pie Plot",
+    "permalink": "/cubode-agent-docs/Graphs/Pie Plot"
+  },
+  "next": {
+    "title": "Scatter Plot",
+    "permalink": "/cubode-agent-docs/Graphs/Scatter Plot"
+  }
+}

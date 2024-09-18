@@ -1,0 +1,26 @@
+{
+  "id": "Graphs/Pie Plot",
+  "title": "Pie Plot",
+  "description": "Table of Contents",
+  "source": "@site/docs/Graphs/Pie Plot.md",
+  "sourceDirName": "Graphs",
+  "slug": "/Graphs/Pie Plot",
+  "permalink": "/cubode-agent-docs/Graphs/Pie Plot",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bar Plot",
+    "permalink": "/cubode-agent-docs/Graphs/Bar Plot"
+  },
+  "next": {
+    "title": "Line Plot",
+    "permalink": "/cubode-agent-docs/Graphs/Line Plot"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Graphs/Heat Map",
+  "title": "Heatmap",
+  "description": "Table of Contents",
+  "source": "@site/docs/Graphs/Heat Map.md",
+  "sourceDirName": "Graphs",
+  "slug": "/Graphs/Heat Map",
+  "permalink": "/cubode-agent-docs/Graphs/Heat Map",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scatter Plot",
+    "permalink": "/cubode-agent-docs/Graphs/Scatter Plot"
+  }
+}

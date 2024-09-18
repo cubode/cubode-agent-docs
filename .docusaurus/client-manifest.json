@@ -1,0 +1,279 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "408": [
+      61,
+      401,
+      869,
+      408
+    ],
+    "17896441": [
+      408,
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "1f391b9e": [
+      408,
+      869,
+      61
+    ],
+    "1fa86313": [
+      168
+    ],
+    "393be207": [
+      134
+    ],
+    "46d89291": [
+      614
+    ],
+    "5e95c892": [
+      647
+    ],
+    "755bd986": [
+      205
+    ],
+    "7f0da727": [
+      321
+    ],
+    "9367583c": [
+      199
+    ],
+    "a7456010": [
+      235
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "b6da9361": [
+      969
+    ],
+    "cbc3190d": [
+      72
+    ],
+    "f3401145": [
+      945
+    ],
+    "styles": [
+      48,
+      61,
+      354,
+      401,
+      408,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.4f238d21.js",
+          "hash": "30d244d646e6adc6",
+          "publicPath": "/cubode-agent-docs/assets/js/a94703ab.4f238d21.js"
+        }
+      ]
+    },
+    "61": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.c8a72446.js",
+          "hash": "8406169e1f62e5a7",
+          "publicPath": "/cubode-agent-docs/assets/js/1f391b9e.c8a72446.js"
+        }
+      ]
+    },
+    "72": {
+      "js": [
+        {
+          "file": "assets/js/cbc3190d.63b5f348.js",
+          "hash": "36a637ecccd29cd6",
+          "publicPath": "/cubode-agent-docs/assets/js/cbc3190d.63b5f348.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.ebf14677.js",
+          "hash": "46c7a38729369797",
+          "publicPath": "/cubode-agent-docs/assets/js/a7bd4aaa.ebf14677.js"
+        }
+      ]
+    },
+    "134": {
+      "js": [
+        {
+          "file": "assets/js/393be207.515ccd7e.js",
+          "hash": "ee77febbc3bd3713",
+          "publicPath": "/cubode-agent-docs/assets/js/393be207.515ccd7e.js"
+        }
+      ]
+    },
+    "168": {
+      "js": [
+        {
+          "file": "assets/js/1fa86313.18c23ad0.js",
+          "hash": "87c8eee2bfbd0e63",
+          "publicPath": "/cubode-agent-docs/assets/js/1fa86313.18c23ad0.js"
+        }
+      ]
+    },
+    "199": {
+      "js": [
+        {
+          "file": "assets/js/9367583c.753905b3.js",
+          "hash": "08b13ba14596561f",
+          "publicPath": "/cubode-agent-docs/assets/js/9367583c.753905b3.js"
+        }
+      ]
+    },
+    "205": {
+      "js": [
+        {
+          "file": "assets/js/755bd986.aa00dee2.js",
+          "hash": "5447773045c2795d",
+          "publicPath": "/cubode-agent-docs/assets/js/755bd986.aa00dee2.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.e9077f42.js",
+          "hash": "dad7813d62d6b9d4",
+          "publicPath": "/cubode-agent-docs/assets/js/a7456010.e9077f42.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.8b7f53cb.js",
+          "hash": "54111050daff11b6",
+          "publicPath": "/cubode-agent-docs/assets/js/237.8b7f53cb.js"
+        }
+      ]
+    },
+    "321": {
+      "js": [
+        {
+          "file": "assets/js/7f0da727.a3d9640c.js",
+          "hash": "574964eb0cd3841a",
+          "publicPath": "/cubode-agent-docs/assets/js/7f0da727.a3d9640c.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.cc83d816.js",
+          "hash": "e213fa914cc17ef0",
+          "publicPath": "/cubode-agent-docs/assets/js/runtime~main.cc83d816.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.d5468d58.js",
+          "hash": "a3b4edf67341cda0",
+          "publicPath": "/cubode-agent-docs/assets/js/17896441.d5468d58.js"
+        }
+      ]
+    },
+    "408": {
+      "js": [
+        {
+          "file": "assets/js/408.bdf8579c.js",
+          "hash": "980d6ee25d99eca2",
+          "publicPath": "/cubode-agent-docs/assets/js/408.bdf8579c.js"
+        }
+      ]
+    },
+    "614": {
+      "js": [
+        {
+          "file": "assets/js/46d89291.8115ae9f.js",
+          "hash": "5af6626033f1156b",
+          "publicPath": "/cubode-agent-docs/assets/js/46d89291.8115ae9f.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.bb8cfc22.js",
+          "hash": "dc490b908bcda430",
+          "publicPath": "/cubode-agent-docs/assets/js/5e95c892.bb8cfc22.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.649d76f8.js",
+          "hash": "067769dbd26e5a97",
+          "publicPath": "/cubode-agent-docs/assets/js/aba21aa0.649d76f8.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.b1b64431.js",
+          "hash": "faecd7625f28a6c1",
+          "publicPath": "/cubode-agent-docs/assets/js/main.b1b64431.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.f0bb00d8.css",
+          "hash": "0ace3a757912bab2",
+          "publicPath": "/cubode-agent-docs/assets/css/styles.f0bb00d8.css"
+        }
+      ]
+    },
+    "945": {
+      "js": [
+        {
+          "file": "assets/js/f3401145.199a206c.js",
+          "hash": "5bc8600ec96f9c4c",
+          "publicPath": "/cubode-agent-docs/assets/js/f3401145.199a206c.js"
+        }
+      ]
+    },
+    "969": {
+      "js": [
+        {
+          "file": "assets/js/b6da9361.b7351cc6.js",
+          "hash": "eae03eac65cf9126",
+          "publicPath": "/cubode-agent-docs/assets/js/b6da9361.b7351cc6.js"
+        }
+      ]
+    }
+  }
+}
