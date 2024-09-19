@@ -2,28 +2,38 @@
 sidebar_position: 1
 slug: /
 ---
-# Cubode-Agent Overview
+# Cubode Graph AI Overview 📈
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Key Features](#key-features)
+- [How to use Cubode Graph AI](#how-to-use-cubode-graph-ai)
+
 ## Introduction
 
-**Cubode-Agent** is a versatile and lightweight software agent designed to facilitate seamless communication between various services, devices, and applications. It acts as a bridge, enabling data collection, processing, and transmission across different platforms. Built with scalability and flexibility in mind, Cubode-Agent is suitable for IoT applications, microservices architectures, and complex distributed systems.
-
-One of the standout features of Cubode-Agent is its ability to assist users in generating a variety of data visualizations, including heatmaps, line plots, bar plots, and scatter plots. This makes it an invaluable tool for data analysts, scientists, and anyone who needs to quickly create insightful visual representations of their data.
+**Cubode Graph AI** is a user-friendly no code tool designed to leverage the latest AI technology to auto-generate create insightful data visualizations with ease. Whether you're a data analyst, scientist, or just someone who needs to visualize data quickly, Cubode AI makes the process simple and efficient. It allows you to generate various types of charts, such as heatmaps, line plots, bar plots, and scatter plots, and then customize them to suit your needs.
 
 ## Key Features
 
-- **Cross-Platform Compatibility**: Runs on various operating systems including Linux, Windows, and macOS.
-- **Extensible Architecture**: Modular design allows for easy integration with new services and devices.
-- **Real-time Data Processing**: Capable of processing data in real-time with low latency.
-- **Secure Communication**: Implements robust encryption standards for secure data transmission.
-- **Scalable**: Easily scales from small single-device deployments to large distributed networks.
-- **Monitoring and Logging**: Built-in monitoring and logging capabilities for easy debugging and performance analysis.
-- **AI-Assisted Plot Generation**: Quickly generate heatmaps, line plots, bar plots, and scatter plots with minimal effort.
+- **Easy to Use 👌**: No technical expertise required. Just upload your data and let Cubode AI do the rest.
+- **Cross-Browser Compatibility 🌐**: Support in most conventional browsers such as Chrome, Safari, Edge & Firefox.
+- **Real-time Data Processing 🚀**: Quickly processes your data to provide instant visualizations.
+- **Secure Communication 🔒**: Ensures your data is transmitted securely.
+- **Scalable 📈**: Suitable for both small projects and large-scale deployments.
+- **AI-Assisted Plot Generation 🤖**: Automatically generates various types of plots with minimal effort.
 
-## Plot Generation Capabilities
+## How to use Cubode Graph AI
 
-Cubode-Agent leverages advanced AI to assist users in creating a variety of data visualizations with ease. The process is simple and user-friendly:
+Cubode-Agent uses advanced AI to help you create a variety of data visualizations effortlessly. Here's how to use it:
 
-1. **Sign In / Login**: Start by signing in or logging into your Cubode-Agent account.
-2. **Upload Your CSV File**: Import your data by uploading a CSV file containing the dataset you want to visualize.
-3. **Generate Plots**: With a single click on the "Generate" button, Cubode-Agent's AI will analyze your data and generate the desired plots, such as heatmaps, line plots, bar plots, or scatter plots.
-4. **Customize Your Plots**: If you want to tweak the generated plots, you can do so using the customizable settings available in the sidebar. This allows you to adjust parameters like axis labels, color schemes, data ranges, and more.
+1. **Sign In / Login 🔑**: Start by signing in or logging into your Cubode-Agent account.
+2. **Upload Your CSV File 🪜**: Import your data by uploading a CSV file containing the dataset you want to visualize.
+3. **Select Your File 📂**: Choose the specific file you want to work with from your uploaded files.
+4. **Generate Plots 📈**: Click on the "Generate" button to let Cubode-Agent's AI analyze your data and create the desired plots.
+5. **Modify Plots 🎨**: Use the simple settings in the sidebar to adjust parameters like axis labels, color schemes, data ranges, and more.
+6. **Export or Share 📤**: Once satisfied with your visualizations, you can export them as images or embed them live into web pages and applications such as Notion.
+
+<div align="center">
+    <iframe width="1000" height="550" src="https://www.youtube.com/embed/_q3HPrlA20M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
