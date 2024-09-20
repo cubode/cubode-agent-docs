@@ -15,7 +15,7 @@ sidebar_position: 1
 - [Important Features for Proper Operation](#important-features-for-proper-operation)
 - [Conclusion](#conclusion)
 
-
+<iframe src="https://graph.cubode.com/charts/FgbBJVVF/" width="800" height="600"></iframe>
 ## Introduction
 
 Bar plots are one of the most common and versatile types of data visualizations used to compare different categories of data. They provide a straightforward way to represent data points across various categories, making them ideal for displaying comparisons, distributions, and trends.

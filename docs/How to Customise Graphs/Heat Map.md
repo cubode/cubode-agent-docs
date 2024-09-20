@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Heatmap
+# Heatmap Plot
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,6 +13,8 @@ sidebar_position: 5
 - [How to Generate a Heatmap with Cubode-Agent](#how-to-generate-a-heatmap-with-cubode-agent)
 - [Important Features for Proper Operation](#important-features-for-proper-operation)
 - [Conclusion](#conclusion)
+
+<iframe src="https://graph.cubode.com/charts/ZhQPgXld/" width="800" height="600"></iframe>
 
 ## Introduction
 

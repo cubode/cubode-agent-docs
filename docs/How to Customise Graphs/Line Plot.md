@@ -16,6 +16,8 @@ sidebar_position: 3
 - [Important Features for Proper Operation](#important-features-for-proper-operation)
 - [Conclusion](#conclusion)
 
+<iframe src="https://graph.cubode.com/charts/akD8epR3/" width="900" height="600"></iframe>
+
 ## Introduction
 
 Line plots are a powerful tool for visualizing data trends over time or across categories. They are particularly useful when you need to compare changes in data points, display trends, or analyze patterns. One of the key advantages of line plots is the ability to create multiple plots from the same dataset, allowing for direct comparison between different data series.

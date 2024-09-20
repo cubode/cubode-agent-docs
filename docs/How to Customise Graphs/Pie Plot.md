@@ -15,6 +15,8 @@ sidebar_position: 2
 - [Conclusion](#conclusion)
 
 
+<iframe src="https://graph.cubode.com/charts/7UKbdQAo/" width="800" height="800"></iframe>
+
 ## Introduction
 
 Pie plots are a popular and visually appealing way to represent data as proportions of a whole. They are particularly useful when you want to display the relative sizes of data categories, making it easy to compare parts of a dataset to the whole.
