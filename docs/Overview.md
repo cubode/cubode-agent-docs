@@ -4,6 +4,20 @@ slug: /
 ---
 # Cubode Graph AI Overview 📈
 
+<a 
+  href="https://graph.cubode.com" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  style={{
+    color: '#80a5d6',
+    textDecoration: 'none',
+    fontWeight: 'bold',
+    fontSize: '24px'
+  }}
+>
+  Try Cubode Graph AI Now! 🚀
+</a>
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Key Features](#key-features)
@@ -43,3 +57,16 @@ Cubode-Agent uses advanced AI to help you create a variety of data visualization
     <iframe width="1000" height="550" src="https://www.youtube.com/embed/_q3HPrlA20M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<a 
+  href="https://graph.cubode.com" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  style={{
+    color: '#80a5d6',
+    textDecoration: 'none',
+    fontWeight: 'bold',
+    fontSize: '24px'
+  }}
+>
+  Try Cubode Graph AI Now! 🚀
+</a>

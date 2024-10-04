@@ -8,6 +8,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 2024-10-02
+
+**Summary**:We are excited to announce the release of Cubode Graph AI 1.X 🚀🚀. Cubode Graph AI blends the power and automation of AI with the flexibility human interaction to create stunning visualizations of your data.
+
+### 🔥 New Features  
+- Ability to add manual charts as well as AI generated charts.
+- Connector added to Notion data bases to create real time visualisations from Notion data.
+- State management for charts to keep your ideas and concepts consistent as you flick between different datatsets
+- Responsive designs for mobile and desktop
+
+### Other additions  
+- Added documentation of how to use Cubode at in the canvas footer
+- Fixed bugs regarding data filtering.
+
+---
+
+## [0.1.10] - 2024-09-22
+
+### 🐛 Bug Fixes  
+- Fixed issues with sidebar functionality. 
+- Fixed bugs regarding data filtering.
+
+---
+
 ## [0.1.9] - 2024-09-18  
 **Summary**: Major overhaul with AI refactoring to improve reasoning and function calls, along with model upgrades.
 
