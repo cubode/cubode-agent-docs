@@ -13,7 +13,6 @@ sidebar_position: 1
 - [Use Cases](#use-cases)
 - [How to Generate a Radar Plot with Cubode Graph AI](#how-to-generate-a-radar-plot-with-cubode-graph-ai)
 - [Important Features for Proper Operation](#important-features-for-proper-operation)
-- [Conclusion](#conclusion)
 
 <iframe src="https://graph.cubode.com/charts/VHQ08CiL/" width="800" height="600"></iframe>
 
@@ -131,7 +130,6 @@ The **Main Settings Menu** allows you to customize several critical aspects of y
 
 The **Series Menu** offers additional options to fine-tune the data representation within your bar plot:
 
-
 1. **Series Name**: You can add or change the name of the series. In a radar plot, each series typically represents a different entity or data point being compared across multiple dimensions.
 
 2. **Column Categories**: You can modify the categorical column that you want to use for the radar categories. These labels represent the different dimensions or categories being compared in the radar plot.
@@ -143,4 +141,3 @@ The **Series Menu** offers additional options to fine-tune the data representati
 5. **Show Area**: Choose whether to fill the area inside the radar plot with color. This can help in visualizing the overall "footprint" of each series.
 
 6. **Colors**: Customize the color scheme used in the plot. This includes the area color, markers color and the color of the radar lines.
-
