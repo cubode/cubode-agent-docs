@@ -11,11 +11,12 @@ sidebar_position: 1
 - [Features of Radar Plots](#features-of-radar-plots)
 - [Customization Options](#customization-options)
 - [Use Cases](#use-cases)
-- [How to Generate a Radar Plot with Cubode Graph AI](#how-to-generate-a-radar-plot-with-Cubode-Graph-AI)
+- [How to Generate a Radar Plot with Cubode Graph AI](#how-to-generate-a-radar-plot-with-cubode-graph-ai)
 - [Important Features for Proper Operation](#important-features-for-proper-operation)
 - [Conclusion](#conclusion)
 
 <iframe src="https://graph.cubode.com/charts/VHQ08CiL/" width="800" height="600"></iframe>
+
 ## Introduction
 
 Radar plots, also known as spider charts or star plots, are unique and versatile data visualizations used to display multivariate data in a two-dimensional format. They excel at comparing multiple quantitative variables, making them ideal for displaying performance metrics, skill assessments, and multi-factor analyses.
