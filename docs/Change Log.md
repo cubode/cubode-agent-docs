@@ -7,6 +7,69 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [1.4.1] - 2024-10-22
+
+### 🔥 New Features  
+- Automatic data sorting for Bar and Pie charts
+- Added in Top 10 selection for Bar and Radar charts to isolate Top 10 values
+
+[![Alt text](/img/top10.png)](/img/top10.png)
+### 🐛 Bug Fixes  
+- Bug fix on chart tooltip styling and labelling
+
+## [1.4.0] - 2024-10-18
+
+### 🔥 New Features  
+- Automatic AI generated charts upon data upload
+- Once a data file is dragged and uploaded the process to generate charts with AI is started automatically
+- No longer the need to hit the generate button upon upload
+
+[![Alt text](/img/ai_auto.png)](/img/ai_auto.png)
+
+### 🐛 Bug Fixes  
+- Bug fix on incorrect column identification for both longtext and datetime 
+- Bug fixes on chart labels cut of once chart is exported
+
+## [1.3.0] - 2024-10-15
+
+### 🔥 New Features  
+- Intelligent date feature decomposition
+- Breaks down date columns into Month, Day, Year etc
+- Improves overall dataset context and augments more refined AI generated charts
+
+[![Alt text](/img/datetime_features.png)](/img/datetime_features.png)
+
+## [1.2.0] - 2024-10-12
+
+### 🔥 New Features  
+- Parallel tool calling for agentic chart generation
+- Improved augmentation of metadata file upload
+- Grounding of AI generated charts with rulesets for each chart type
+
+### 🐛 Bug Fixes  
+- Hallucinations of column names from LLM
+
+## [1.1.2] - 2024-10-07
+
+### 🔥 New Features  
+- Auto data typing identification for improving dataset augmentation
+- Auto type setting and schema handling
+[![Alt text](/img/data_typing_updates.png)](/img/data_typing_updates.png)
+
+### 🐛 Bug Fixes  
+- Fixed bugs on datetime column handling
+
+## [1.1.1] - 2024-10-04
+
+### 🔥 New Features  
+- Added a new chart type: The word cloud plot
+- Word cloud plot is a visual representation of text data, where the frequency of each word is represented by its size or color.
+- AI generation for word cloud plot is also now supported
+
+[![Alt text](/img/wordcloud.png)](/img/wordcloud.png)
+
+### 🐛 Bug Fixes  
+- Fixed bugs on data loading and chart rendering.
 
 ## [1.1.0] - 2024-10-02
 
