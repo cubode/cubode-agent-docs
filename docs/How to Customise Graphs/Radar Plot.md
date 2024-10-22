@@ -11,7 +11,7 @@ sidebar_position: 1
 - [Features of Radar Plots](#features-of-radar-plots)
 - [Customization Options](#customization-options)
 - [Use Cases](#use-cases)
-- [How to Generate a Radar Plot with Cubode Graph AI](#how-to-generate-a-radar-plot-with-Cubode Graph AI)
+- [How to Generate a Radar Plot with Cubode Graph AI](#how-to-generate-a-radar-plot-with-Cubode-Graph-AI)
 - [Important Features for Proper Operation](#important-features-for-proper-operation)
 - [Conclusion](#conclusion)
 
