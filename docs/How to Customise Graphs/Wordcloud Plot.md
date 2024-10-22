@@ -10,7 +10,7 @@ sidebar_position: 1
 - [Features of Wordcloud Plots](#features-of-wordcloud-plots)
 - [Customization Options](#customization-options)
 - [Use Cases](#use-cases)
-- [How to Generate a Wordcloud Plot with Cubode Graph AI](#how-to-generate-a-wordcloud-plot-with-Cubode Graph AI)
+- [How to Generate a Wordcloud Plot with Cubode Graph AI](#how-to-generate-a-wordcloud-plot-with-cubode-graph-ai)
 - [Important Features for Proper Operation](#important-features-for-proper-operation)
 - [Conclusion](#conclusion)
 
