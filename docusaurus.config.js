@@ -9,8 +9,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Cubode',
-  tagline: 'Cubode AI agent is here',
-  favicon: 'img/cubodeLogo.svg',
+  tagline: 'Cubode Graph AI is here',
+  favicon: 'img/square_logo.svg',
 
   // Set the production url of your site here
   url: 'https://cubode.github.io',
@@ -72,7 +72,7 @@ const config = {
       // Replace with your project's social card
       image: 'cubodeLogo.svg',
       navbar: {
-        title: 'CUBODE AI AGENT DOCUMENTATION',
+        title: 'CUBODE GRAPH AI DOCUMENTATION',
         // logo: {
         //   alt: 'My Site Logo',
         //   src: 'img/cubodeLogo.svg',
