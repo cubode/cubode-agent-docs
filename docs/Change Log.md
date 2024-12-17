@@ -6,7 +6,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),  
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2024-12-17
+
+### 🔥 Incoming 👀
+🚀 Get ready for a game-changing update! Our next release will bring powerful new features to supercharge your data visualization workflow. Stay tuned for enhanced AI capabilities, smoother performance, and exciting new chart types that will take your analytics to the next level. Coming soon to transform how you work with data!
+
+## [1.5.0] - 2024-11-28
+
+### 🔥 New Features - Cubode AI Upgrade
+- New AI pipeline released. 5 step process outlined as follows with model selection:
+1. Metadata Augmentation & Context creation - Llama 3.1-8B
+2. Metadata Trend Analysis - Llama 3.1-70B
+3. Chart Suggestions - Llama 3.1-70B
+4. Chart Suggestion Reflection - Llama 3.1-70B
+5. Tool Calling - Llama 3.1-8B optimised for tool calling
+- Automatic chart rendering once AI has finished processing, instead of waiting for all your charts, Cubode renders them individually once thr Cuboe AI engine has finished generating it.
+
+### 🐛 Bug Fixes  
+- Web socket message leakage fixed
 ---
+## [1.4.2] - 2024-11-10
+
+### 🔥 New Features - Auto Chart Detection
+- Automatic empty chart detection 
+- If a chart generated from the AI empty, auto detection filters them out and re-generates new ones.
+
+### 🐛 Bug Fixes  
+- Filter big fixed
+- Manual dataset sorting fixed
+
 ## [1.4.1] - 2024-10-22
 
 ### 🔥 New Features  
