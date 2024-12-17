@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.5.2">
 <title data-rh="true">Change Log 📜 | Cubode</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://cubode.github.io/cubode-agent-docs/cubodeLogo.svg"><meta data-rh="true" name="twitter:image" content="https://cubode.github.io/cubode-agent-docs/cubodeLogo.svg"><meta data-rh="true" property="og:url" content="https://cubode.github.io/cubode-agent-docs/Change Log/"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Change Log 📜 | Cubode"><meta data-rh="true" name="description" content="All notable changes to this project will be documented in this file."><meta data-rh="true" property="og:description" content="All notable changes to this project will be documented in this file."><link data-rh="true" rel="icon" href="/cubode-agent-docs/img/square_logo.svg"><link data-rh="true" rel="canonical" href="https://cubode.github.io/cubode-agent-docs/Change Log/"><link data-rh="true" rel="alternate" href="https://cubode.github.io/cubode-agent-docs/Change Log/" hreflang="en"><link data-rh="true" rel="alternate" href="https://cubode.github.io/cubode-agent-docs/Change Log/" hreflang="x-default"><link rel="stylesheet" href="/cubode-agent-docs/assets/css/styles.f0bb00d8.css">
-<script src="/cubode-agent-docs/assets/js/runtime~main.426cc087.js" defer="defer"></script>
+<script src="/cubode-agent-docs/assets/js/runtime~main.c7788715.js" defer="defer"></script>
 <script src="/cubode-agent-docs/assets/js/main.b48c9e7d.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -12,7 +12,40 @@
 <p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/" target="_blank" rel="noopener noreferrer">Keep a Changelog</a>,<br>
 <!-- -->and this project adheres to <a href="https://semver.org/spec/v2.0.0.html" target="_blank" rel="noopener noreferrer">Semantic Versioning</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="200---2024-12-17">[2.0.0] - 2024-12-17<a href="#200---2024-12-17" class="hash-link" aria-label="Direct link to [2.0.0] - 2024-12-17" title="Direct link to [2.0.0] - 2024-12-17">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-incoming-">🔥 Incoming 👀<a href="#-incoming-" class="hash-link" aria-label="Direct link to 🔥 Incoming 👀" title="Direct link to 🔥 Incoming 👀">​</a></h3>
+<p>🚀 Get ready for a game-changing update! Our next release will bring powerful new features to supercharge your data visualization workflow. Stay tuned for enhanced AI capabilities, smoother performance, and exciting new chart types that will take your analytics to the next level. Coming soon to transform how you work with data!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="150---2024-11-28">[1.5.0] - 2024-11-28<a href="#150---2024-11-28" class="hash-link" aria-label="Direct link to [1.5.0] - 2024-11-28" title="Direct link to [1.5.0] - 2024-11-28">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-new-features---cubode-ai-upgrade">🔥 New Features - Cubode AI Upgrade<a href="#-new-features---cubode-ai-upgrade" class="hash-link" aria-label="Direct link to 🔥 New Features - Cubode AI Upgrade" title="Direct link to 🔥 New Features - Cubode AI Upgrade">​</a></h3>
+<ul>
+<li>New AI pipeline released. 5 step process outlined as follows with model selection:</li>
+</ul>
+<ol>
+<li>Metadata Augmentation &amp; Context creation - Llama 3.1-8B</li>
+<li>Metadata Trend Analysis - Llama 3.1-70B</li>
+<li>Chart Suggestions - Llama 3.1-70B</li>
+<li>Chart Suggestion Reflection - Llama 3.1-70B</li>
+<li>Tool Calling - Llama 3.1-8B optimised for tool calling</li>
+</ol>
+<ul>
+<li>Automatic chart rendering once AI has finished processing, instead of waiting for all your charts, Cubode renders them individually once thr Cuboe AI engine has finished generating it.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes">🐛 Bug Fixes<a href="#-bug-fixes" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<ul>
+<li>Web socket message leakage fixed</li>
+</ul>
 <hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="142---2024-11-10">[1.4.2] - 2024-11-10<a href="#142---2024-11-10" class="hash-link" aria-label="Direct link to [1.4.2] - 2024-11-10" title="Direct link to [1.4.2] - 2024-11-10">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-new-features---auto-chart-detection">🔥 New Features - Auto Chart Detection<a href="#-new-features---auto-chart-detection" class="hash-link" aria-label="Direct link to 🔥 New Features - Auto Chart Detection" title="Direct link to 🔥 New Features - Auto Chart Detection">​</a></h3>
+<ul>
+<li>Automatic empty chart detection</li>
+<li>If a chart generated from the AI empty, auto detection filters them out and re-generates new ones.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-1">🐛 Bug Fixes<a href="#-bug-fixes-1" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<ul>
+<li>Filter big fixed</li>
+<li>Manual dataset sorting fixed</li>
+</ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="141---2024-10-22">[1.4.1] - 2024-10-22<a href="#141---2024-10-22" class="hash-link" aria-label="Direct link to [1.4.1] - 2024-10-22" title="Direct link to [1.4.1] - 2024-10-22">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="-new-features">🔥 New Features<a href="#-new-features" class="hash-link" aria-label="Direct link to 🔥 New Features" title="Direct link to 🔥 New Features">​</a></h3>
 <ul>
@@ -20,7 +53,7 @@
 <li>Added in Top 10 selection for Bar and Radar charts to isolate Top 10 values</li>
 </ul>
 <p><a href="/cubode-agent-docs/assets/files/top10-7cd65fa6030cd2bea59226fe073bf337.png/" target="_blank"><img decoding="async" loading="lazy" alt="Alt text" src="/cubode-agent-docs/assets/images/top10-7cd65fa6030cd2bea59226fe073bf337.png" width="2000" height="1333" class="img_ev3q"></a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes">🐛 Bug Fixes<a href="#-bug-fixes" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-2">🐛 Bug Fixes<a href="#-bug-fixes-2" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Bug fix on chart tooltip styling and labelling</li>
 </ul>
@@ -32,7 +65,7 @@
 <li>No longer the need to hit the generate button upon upload</li>
 </ul>
 <p><a href="/cubode-agent-docs/assets/files/ai_auto-1413af81442a1af06525985f6cdfc42f.png/" target="_blank"><img decoding="async" loading="lazy" alt="Alt text" src="/cubode-agent-docs/assets/images/ai_auto-1413af81442a1af06525985f6cdfc42f.png" width="2512" height="1278" class="img_ev3q"></a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-1">🐛 Bug Fixes<a href="#-bug-fixes-1" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-3">🐛 Bug Fixes<a href="#-bug-fixes-3" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Bug fix on incorrect column identification for both longtext and datetime</li>
 <li>Bug fixes on chart labels cut of once chart is exported</li>
@@ -52,7 +85,7 @@
 <li>Improved augmentation of metadata file upload</li>
 <li>Grounding of AI generated charts with rulesets for each chart type</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-2">🐛 Bug Fixes<a href="#-bug-fixes-2" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-4">🐛 Bug Fixes<a href="#-bug-fixes-4" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Hallucinations of column names from LLM</li>
 </ul>
@@ -63,7 +96,7 @@
 <li>Auto type setting and schema handling
 <a href="/cubode-agent-docs/assets/files/data_typing_updates-7e9ac274817d464b5774e0ece1ad58f1.png/" target="_blank"><img decoding="async" loading="lazy" alt="Alt text" src="/cubode-agent-docs/assets/images/data_typing_updates-7e9ac274817d464b5774e0ece1ad58f1.png" width="2520" height="1286" class="img_ev3q"></a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-3">🐛 Bug Fixes<a href="#-bug-fixes-3" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-5">🐛 Bug Fixes<a href="#-bug-fixes-5" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Fixed bugs on datetime column handling</li>
 </ul>
@@ -75,7 +108,7 @@
 <li>AI generation for word cloud plot is also now supported</li>
 </ul>
 <p><a href="/cubode-agent-docs/assets/files/wordcloud-f48de3c557187b9c4077dd1e7ae5c3c0.png/" target="_blank"><img decoding="async" loading="lazy" alt="Alt text" src="/cubode-agent-docs/assets/images/wordcloud-f48de3c557187b9c4077dd1e7ae5c3c0.png" width="3024" height="1538" class="img_ev3q"></a></p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-4">🐛 Bug Fixes<a href="#-bug-fixes-4" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-6">🐛 Bug Fixes<a href="#-bug-fixes-6" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Fixed bugs on data loading and chart rendering.</li>
 </ul>
@@ -95,7 +128,7 @@
 </ul>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="0110---2024-09-22">[0.1.10] - 2024-09-22<a href="#0110---2024-09-22" class="hash-link" aria-label="Direct link to [0.1.10] - 2024-09-22" title="Direct link to [0.1.10] - 2024-09-22">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-5">🐛 Bug Fixes<a href="#-bug-fixes-5" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-7">🐛 Bug Fixes<a href="#-bug-fixes-7" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Fixed issues with sidebar functionality.</li>
 <li>Fixed bugs regarding data filtering.</li>
@@ -107,7 +140,7 @@
 <ul>
 <li>Models upgraded to Llama 3.1-70B for reasoning and a fine-tuned Llama 3.1-8B optimized for tool use.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-6">🐛 Bug Fixes<a href="#-bug-fixes-6" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-8">🐛 Bug Fixes<a href="#-bug-fixes-8" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Fixed issues with exporting radar and heatmap plots to PNG.</li>
 <li>Resolved tool-tip flickering on hover for interactive charts.</li>
@@ -120,7 +153,7 @@
 <ul>
 <li>Created comprehensive documentation for building data charts using AI.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-7">🐛 Bug Fixes<a href="#-bug-fixes-7" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-9">🐛 Bug Fixes<a href="#-bug-fixes-9" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Fixed export issues for radar and heatmap plots in PNG format.</li>
 <li>Corrected erroneous user notifications</li>
@@ -132,7 +165,7 @@
 <ul>
 <li>Embedded user support for in-app and live help.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-8">🐛 Bug Fixes<a href="#-bug-fixes-8" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-10">🐛 Bug Fixes<a href="#-bug-fixes-10" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Solved export-to-PNG bugs for radar and heatmap plots.</li>
 <li>Fixed an issue where the help chat widget wouldn’t close after minimizing.</li>
@@ -145,7 +178,7 @@
 <li>Automatic URL generation for chart sharing.</li>
 <li>Dynamic embedding of charts into Notion.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-9">🐛 Bug Fixes<a href="#-bug-fixes-9" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-11">🐛 Bug Fixes<a href="#-bug-fixes-11" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Fixed issue where shared charts were not displaying properly due to incorrect data checking logic.</li>
 <li>Fixed issue with metadata extraction.</li>
@@ -165,7 +198,7 @@
 <li>Introduced Radar plot functionality.</li>
 <li>Introduced Heatmap plot functionality.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-10">🐛 Bug Fixes<a href="#-bug-fixes-10" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-12">🐛 Bug Fixes<a href="#-bug-fixes-12" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Fixed color scaling issue for heatmap plots in dark mode.</li>
 </ul>
@@ -198,7 +231,7 @@
 <ul>
 <li>Integrated real-time interactive plot rendering using HTMX.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-11">🐛 Bug Fixes<a href="#-bug-fixes-11" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-bug-fixes-13">🐛 Bug Fixes<a href="#-bug-fixes-13" class="hash-link" aria-label="Direct link to 🐛 Bug Fixes" title="Direct link to 🐛 Bug Fixes">​</a></h3>
 <ul>
 <li>Fixed plotting components to handle aggregated data properly.</li>
 <li>Resolved an issue where chart legends were overlapping the chart itself in smaller screens.</li>
@@ -211,6 +244,6 @@
 <li>Beta version launched.</li>
 </ul>
 <hr>
-<hr></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/cubode-agent-docs/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Cubode Graph AI Overview 📈</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/cubode-agent-docs/How to Customise Graphs/Bar Plot/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Bar Plot</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#141---2024-10-22" class="table-of-contents__link toc-highlight">[1.4.1] - 2024-10-22</a><ul><li><a href="#-new-features" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#140---2024-10-18" class="table-of-contents__link toc-highlight">[1.4.0] - 2024-10-18</a><ul><li><a href="#-new-features-1" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-1" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#130---2024-10-15" class="table-of-contents__link toc-highlight">[1.3.0] - 2024-10-15</a><ul><li><a href="#-new-features-2" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li><li><a href="#120---2024-10-12" class="table-of-contents__link toc-highlight">[1.2.0] - 2024-10-12</a><ul><li><a href="#-new-features-3" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-2" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#112---2024-10-07" class="table-of-contents__link toc-highlight">[1.1.2] - 2024-10-07</a><ul><li><a href="#-new-features-4" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-3" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#111---2024-10-04" class="table-of-contents__link toc-highlight">[1.1.1] - 2024-10-04</a><ul><li><a href="#-new-features-5" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-4" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#110---2024-10-02" class="table-of-contents__link toc-highlight">[1.1.0] - 2024-10-02</a><ul><li><a href="#-new-features-6" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#other-additions" class="table-of-contents__link toc-highlight">Other additions</a></li></ul></li><li><a href="#0110---2024-09-22" class="table-of-contents__link toc-highlight">[0.1.10] - 2024-09-22</a><ul><li><a href="#-bug-fixes-5" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#019---2024-09-18" class="table-of-contents__link toc-highlight">[0.1.9] - 2024-09-18</a><ul><li><a href="#-new-features-7" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-6" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#018---2024-09-15" class="table-of-contents__link toc-highlight">[0.1.8] - 2024-09-15</a><ul><li><a href="#-new-features-8" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-7" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#0171---2024-09-12" class="table-of-contents__link toc-highlight">[0.1.71] - 2024-09-12</a><ul><li><a href="#-new-features-9" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-8" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#017---2024-09-10" class="table-of-contents__link toc-highlight">[0.1.7] - 2024-09-10</a><ul><li><a href="#-new-features-10" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-9" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#016---2024-09-08" class="table-of-contents__link toc-highlight">[0.1.6] - 2024-09-08</a><ul><li><a href="#-new-features-11" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li><li><a href="#015---2024-09-08" class="table-of-contents__link toc-highlight">[0.1.5] - 2024-09-08</a><ul><li><a href="#-new-features-12" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-10" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#014---2024-09-07" class="table-of-contents__link toc-highlight">[0.1.4] - 2024-09-07</a><ul><li><a href="#-new-features-13" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li><li><a href="#013---2024-09-05" class="table-of-contents__link toc-highlight">[0.1.3] - 2024-09-05</a><ul><li><a href="#-new-features-14" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li><li><a href="#012---2024-09-03" class="table-of-contents__link toc-highlight">[0.1.2] - 2024-09-03</a><ul><li><a href="#-new-features-15" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li><li><a href="#011---2024-09-02" class="table-of-contents__link toc-highlight">[0.1.1] - 2024-09-02</a><ul><li><a href="#-new-features-16" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-11" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#010---2024-09-01" class="table-of-contents__link toc-highlight">[0.1.0] - 2024-09-01</a><ul><li><a href="#-new-features-17" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title"></div><ul class="footer__items clean-list"></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://medium.com/@cubode" target="_blank" rel="noopener noreferrer" class="footer__link-item">Medium<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/channel/UCLpzWgRa6UH5FxsHMYfXZKQ" target="_blank" rel="noopener noreferrer" class="footer__link-item">You Tube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.tiktok.com/@cubode#" target="_blank" rel="noopener noreferrer" class="footer__link-item">Tiktok<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/cubode/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Linkedin<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Cubode Ltd.</div></div></div></footer></div>
+<hr></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/cubode-agent-docs/"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Cubode Graph AI Overview 📈</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/cubode-agent-docs/How to Customise Graphs/Bar Plot/"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Bar Plot</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#200---2024-12-17" class="table-of-contents__link toc-highlight">[2.0.0] - 2024-12-17</a><ul><li><a href="#-incoming-" class="table-of-contents__link toc-highlight">🔥 Incoming 👀</a></li></ul></li><li><a href="#150---2024-11-28" class="table-of-contents__link toc-highlight">[1.5.0] - 2024-11-28</a><ul><li><a href="#-new-features---cubode-ai-upgrade" class="table-of-contents__link toc-highlight">🔥 New Features - Cubode AI Upgrade</a></li><li><a href="#-bug-fixes" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#142---2024-11-10" class="table-of-contents__link toc-highlight">[1.4.2] - 2024-11-10</a><ul><li><a href="#-new-features---auto-chart-detection" class="table-of-contents__link toc-highlight">🔥 New Features - Auto Chart Detection</a></li><li><a href="#-bug-fixes-1" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#141---2024-10-22" class="table-of-contents__link toc-highlight">[1.4.1] - 2024-10-22</a><ul><li><a href="#-new-features" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-2" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#140---2024-10-18" class="table-of-contents__link toc-highlight">[1.4.0] - 2024-10-18</a><ul><li><a href="#-new-features-1" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-3" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#130---2024-10-15" class="table-of-contents__link toc-highlight">[1.3.0] - 2024-10-15</a><ul><li><a href="#-new-features-2" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li><li><a href="#120---2024-10-12" class="table-of-contents__link toc-highlight">[1.2.0] - 2024-10-12</a><ul><li><a href="#-new-features-3" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-4" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#112---2024-10-07" class="table-of-contents__link toc-highlight">[1.1.2] - 2024-10-07</a><ul><li><a href="#-new-features-4" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-5" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#111---2024-10-04" class="table-of-contents__link toc-highlight">[1.1.1] - 2024-10-04</a><ul><li><a href="#-new-features-5" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-6" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#110---2024-10-02" class="table-of-contents__link toc-highlight">[1.1.0] - 2024-10-02</a><ul><li><a href="#-new-features-6" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#other-additions" class="table-of-contents__link toc-highlight">Other additions</a></li></ul></li><li><a href="#0110---2024-09-22" class="table-of-contents__link toc-highlight">[0.1.10] - 2024-09-22</a><ul><li><a href="#-bug-fixes-7" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#019---2024-09-18" class="table-of-contents__link toc-highlight">[0.1.9] - 2024-09-18</a><ul><li><a href="#-new-features-7" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-8" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#018---2024-09-15" class="table-of-contents__link toc-highlight">[0.1.8] - 2024-09-15</a><ul><li><a href="#-new-features-8" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-9" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#0171---2024-09-12" class="table-of-contents__link toc-highlight">[0.1.71] - 2024-09-12</a><ul><li><a href="#-new-features-9" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-10" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#017---2024-09-10" class="table-of-contents__link toc-highlight">[0.1.7] - 2024-09-10</a><ul><li><a href="#-new-features-10" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-11" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#016---2024-09-08" class="table-of-contents__link toc-highlight">[0.1.6] - 2024-09-08</a><ul><li><a href="#-new-features-11" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li><li><a href="#015---2024-09-08" class="table-of-contents__link toc-highlight">[0.1.5] - 2024-09-08</a><ul><li><a href="#-new-features-12" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-12" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#014---2024-09-07" class="table-of-contents__link toc-highlight">[0.1.4] - 2024-09-07</a><ul><li><a href="#-new-features-13" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li><li><a href="#013---2024-09-05" class="table-of-contents__link toc-highlight">[0.1.3] - 2024-09-05</a><ul><li><a href="#-new-features-14" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li><li><a href="#012---2024-09-03" class="table-of-contents__link toc-highlight">[0.1.2] - 2024-09-03</a><ul><li><a href="#-new-features-15" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li><li><a href="#011---2024-09-02" class="table-of-contents__link toc-highlight">[0.1.1] - 2024-09-02</a><ul><li><a href="#-new-features-16" class="table-of-contents__link toc-highlight">🔥 New Features</a></li><li><a href="#-bug-fixes-13" class="table-of-contents__link toc-highlight">🐛 Bug Fixes</a></li></ul></li><li><a href="#010---2024-09-01" class="table-of-contents__link toc-highlight">[0.1.0] - 2024-09-01</a><ul><li><a href="#-new-features-17" class="table-of-contents__link toc-highlight">🔥 New Features</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title"></div><ul class="footer__items clean-list"></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://medium.com/@cubode" target="_blank" rel="noopener noreferrer" class="footer__link-item">Medium<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/channel/UCLpzWgRa6UH5FxsHMYfXZKQ" target="_blank" rel="noopener noreferrer" class="footer__link-item">You Tube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.tiktok.com/@cubode#" target="_blank" rel="noopener noreferrer" class="footer__link-item">Tiktok<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://www.linkedin.com/company/cubode/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Linkedin<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 Cubode Ltd.</div></div></div></footer></div>
 </body>
 </html>
